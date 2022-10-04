@@ -1,0 +1,127 @@
+AUTO_RESUME: true
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+DATA_DIR: ''
+GPUS: (0,)
+OUTPUT_DIR: 'output_sup_5'
+LOG_DIR: 'log_sup_5'
+WORKERS: 36
+PRINT_FREQ: 100
+
+DATASET:
+  COLOR_RGB: true
+  DATASET: 'awa'
+  DATA_FORMAT: jpg
+  FLIP: true
+  NUM_JOINTS_HALF_BODY: 23
+  PROB_HALF_BODY: 0.5
+  ROOT: '/u/snaha/v6/dataset/AWA/Animals_with_Attributes2'
+  ROT_FACTOR: 45
+  SCALE_FACTOR: 0.35
+  TEST_SET: 'val'
+  TRAIN_SET: 'train'
+MODEL:
+  INIT_WEIGHTS: true
+  NAME: pose_hrnet
+  NUM_JOINTS: 39
+  PRETRAINED: '/home/changsheng/LabDatasets/AwA-Pose/pretrained_hrnet_models/imagenet/hrnet_w48-8ef0771d.pth'
+  TARGET_TYPE: gaussian
+  IMAGE_SIZE:
+  - 384
+  - 288
+  HEATMAP_SIZE:
+  - 96
+  - 72
+  SIGMA: 3
+  EXTRA:
+    PRETRAINED_LAYERS:
+    - 'conv1'
+    - 'bn1'
+    - 'conv2'
+    - 'bn2'
+    - 'layer1'
+    - 'transition1'
+    - 'stage2'
+    - 'transition2'
+    - 'stage3'
+    - 'transition3'
+    - 'stage4'
+    FINAL_CONV_KERNEL: 1
+    STAGE2:
+      NUM_MODULES: 1
+      NUM_BRANCHES: 2
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 48
+      - 96
+      FUSE_METHOD: SUM
+    STAGE3:
+      NUM_MODULES: 4
+      NUM_BRANCHES: 3
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 48
+      - 96
+      - 192
+      FUSE_METHOD: SUM
+    STAGE4:
+      NUM_MODULES: 3
+      NUM_BRANCHES: 4
+      BLOCK: BASIC
+      NUM_BLOCKS:
+      - 4
+      - 4
+      - 4
+      - 4
+      NUM_CHANNELS:
+      - 48
+      - 96
+      - 192
+      - 384
+      FUSE_METHOD: SUM
+LOSS:
+  USE_TARGET_WEIGHT: true
+TRAIN:
+  BATCH_SIZE_PER_GPU: 20
+  SHUFFLE: true
+  BEGIN_EPOCH: 0
+  END_EPOCH: 120
+  OPTIMIZER: adam
+  LR: 0.0005
+  LR_FACTOR: 0.1
+  LR_STEP:
+  - 90
+  - 110
+  WD: 0.0001
+  GAMMA1: 0.99
+  GAMMA2: 0.0
+  MOMENTUM: 0.9
+  NESTEROV: false
+TEST:
+  BATCH_SIZE_PER_GPU: 1
+  COCO_BBOX_FILE: ''
+  BBOX_THRE: 1.0
+  IMAGE_THRE: 0.0
+  IN_VIS_THRE: 0.2
+  MODEL_FILE: 'output_sup_5/awa/pose_hrnet/w48_384x288_sup_5/model_best.pth'
+  NMS_THRE: 1.0
+  OKS_THRE: 0.9
+  USE_GT_BBOX: true
+  FLIP_TEST: true
+  POST_PROCESS: true
+  SHIFT_HEATMAP: true
+DEBUG:
+  DEBUG: true
+  SAVE_BATCH_IMAGES_GT: false
+  SAVE_BATCH_IMAGES_PRED: true
+  SAVE_HEATMAPS_GT: false
+  SAVE_HEATMAPS_PRED: false
