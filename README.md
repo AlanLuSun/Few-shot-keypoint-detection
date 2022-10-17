@@ -7,7 +7,11 @@ For convenience, we show how to train and test the FSKD model only in [Animal po
 ## 1. FSKD Pipeline  
 <img src="./pics/pipeline.png" width="95%"> 
 
-## 2. Model Training
+## 2. Requirements.
+- Python 3.8.5
+- Pytorch 1.7.0
+
+## 3. Model Training
 - Download dataset.   
 Since the official [Animal pose dataset](https://sites.google.com/view/animal-pose/) has been corrected multiple times by its author due to noisy annotations, the current official one is different from the one which we used. Moreover, the annotation format is different, too. Therefore, we upload the Animal pose dataset that we used on the cloud and please use [this one](https://drive.google.com/file/d/1d1PJWBFjurJltjgyt0LgTENOw0PahZMF/view?usp=sharing). The animal pose dataset should have the folder structure as follows:
     
@@ -32,15 +36,15 @@ Since the official [Animal pose dataset](https://sites.google.com/view/animal-po
 
 - Modify the 'saliency_maps_root' in dict 'opts', and run 'main.py'.  
 
-## 3. Model Testing
+## 4. Model Testing
 - Modify the paths in "eval.py" and run it.
 
 
-## 4. FAQ
+## 5. FAQ
 - The testing result may have some variations because it is tested using episodes. Moreover, FSKD is very challenging, so the detector may pose some uncertainty in novel keypoint detection. The scores would be more stable if more episodes are tested.
 - The current pipeline is the starting of FSKD. We believe the code will be better along with the research progress of FSKD in the future.
 
-## 5. Citation  
+## 6. Citation  
 If you use our code for your research, please cite our paper. Many thanks!
 
 ```
