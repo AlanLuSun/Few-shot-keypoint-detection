@@ -1,0 +1,111 @@
+0 Red-tailed Hawk (Light morph adult)
+1 Mallard (Breeding male)
+2 Green-winged Teal (Male)
+3 Lesser Scaup (Breeding male)
+4 Bufflehead (Breeding male)
+5 Red-breasted Merganser (Breeding male)
+6 Pacific Loon (Breeding)
+7 Northern Gannet (Adult, Subadult)
+8 Black-crowned Night-Heron (Adult)
+9 Sharp-shinned Hawk (Adult )
+10 Golden Eagle (Adult)
+11 Black-bellied Plover (Breeding)
+12 Broad-billed Hummingbird (Adult Male)
+13 Calliope Hummingbird (Adult Male)
+14 Northern Flicker (Yellow-shafted)
+15 Heermann's Gull (Adult)
+16 Glaucous-winged Gull (Adult)
+17 Black Tern
+18 Greater White-fronted Goose
+19 Trumpeter Swan
+20 Long-tailed Duck (Summer male)
+21 Wild Turkey
+22 Brandt's Cormorant
+23 Brown Pelican
+24 Cattle Egret
+25 Black Vulture
+26 Mississippi Kite
+27 Merlin
+28 Killdeer
+29 Solitary Sandpiper
+30 Long-billed Curlew
+31 Semipalmated Sandpiper
+32 American Woodcock
+33 Mourning Dove
+34 Black-billed Cuckoo
+35 Great Horned Owl
+36 Northern Saw-whet Owl
+37 Belted Kingfisher
+38 Yellow-bellied Sapsucker
+39 Downy Woodpecker
+40 Black-legged Kittiwake (Immature)
+41 California Gull (Immature)
+42 Snow Goose (Blue morph)
+43 Mallard (Female/Eclipse male)
+44 Green-winged Teal  (Female/juvenile)
+45 Lesser Scaup (Female/Eclipse male)
+46 Bufflehead (Female/immature male)
+47 Red-breasted Merganser (Female/immature male)
+48 Pacific Loon (Nonbreeding/juvenile)
+49 Northern Gannet (Immature/Juvenile)
+50 Black-crowned Night-Heron (Immature)
+51 Sharp-shinned Hawk (Immature)
+52 Golden Eagle (Immature)
+53 Black-bellied Plover (Nonbreeding/juvenile)
+54 Broad-billed Hummingbird (Female, immature)
+55 Calliope Hummingbird (Female, immature)
+56 Northern Flicker (Red-shafted)
+57 Red-tailed Hawk (Light morph immature)
+58 Summer Tanager (Adult Male)
+59 Snow Bunting (Breeding adult)
+60 Chestnut-sided Warbler (Breeding male)
+61 Harris's Sparrow (Adult)
+62 Scarlet Tanager (Breeding Male)
+63 Blue Grosbeak (Adult Male)
+64 Red-winged Blackbird (Male)
+65 Bullock's Oriole (Adult male)
+66 House Finch (Adult Male)
+67 Evening Grosbeak (Adult Male)
+68 Fish Crow
+69 Violet-green Swallow
+70 Barn Swallow
+71 Boreal Chickadee
+72 Black-crested Titmouse
+73 Pygmy Nuthatch
+74 Carolina Wren
+75 Marsh Wren
+76 Ruby-crowned Kinglet
+77 Townsend's Solitaire
+78 Varied Thrush
+79 California Thrasher
+80 Ovenbird
+81 Prothonotary Warbler
+82 Mourning Warbler
+83 Yellow Warbler
+84 Black-throated Gray Warbler
+85 Wilson's Warbler
+86 Rufous-crowned Sparrow
+87 Clay-colored Sparrow
+88 Savannah Sparrow
+89 Dark-eyed Junco (Pink-sided)
+90 Western Meadowlark
+91 Bronzed Cowbird
+92 Common Redpoll
+93 Least Flycatcher
+94 Say's Phoebe
+95 Eastern Kingbird
+96 Bell's Vireo
+97 Hutton's Vireo
+98 Blue Jay
+99 Black-billed Magpie
+100 American Robin (Juvenile)
+101 Magnolia Warbler (Female/immature male)
+102 Lark Bunting (Female/Nonbreeding male)
+103 Dark-eyed Junco (White-winged)
+104 Rose-breasted Grosbeak (Female/immature male)
+105 Painted Bunting (Female/juvenile)
+106 Brown-headed Cowbird (Female/Juvenile)
+107 Purple Finch (Female/immature)
+108 Lesser Goldfinch (Female/juvenile)
+109 European Starling (Juvenile)
+110 Dark-eyed Junco (Red-backed/Gray-headed)

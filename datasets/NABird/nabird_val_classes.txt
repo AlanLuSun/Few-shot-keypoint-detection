@@ -1,0 +1,111 @@
+0 Swainson's Hawk (Dark morph )
+1 American Wigeon (Breeding male)
+2 Northern Pintail (Breeding male)
+3 Greater Scaup (Breeding male)
+4 Black Scoter (Male)
+5 Common Merganser (Breeding male)
+6 Red-throated Loon (Breeding)
+7 Eared Grebe (Breeding)
+8 Reddish Egret (Dark morph)
+9 Northern Harrier (Adult male)
+10 Rough-legged Hawk (Dark morph)
+11 Common Gallinule (Adult)
+12 Wilson's Phalarope (Breeding)
+13 Costa's Hummingbird (Adult Male)
+14 Red-headed Woodpecker (Adult)
+15 Laughing Gull (Breeding)
+16 Herring Gull (Adult)
+17 Caspian Tern
+18 Black Skimmer
+19 Mute Swan
+20 Common Eider (Female/juvenile)
+21 Ruffed Grouse
+22 Wood Stork
+23 American White Pelican
+24 Tricolored Heron
+25 Roseate Spoonbill
+26 White-tailed Kite
+27 Crested Caracara
+28 Semipalmated Plover
+29 American Avocet
+30 Whimbrel
+31 Surfbird
+32 Wilson's Snipe
+33 White-winged Dove
+34 Yellow-billed Cuckoo
+35 Eastern Screech-Owl
+36 Barred Owl
+37 White-throated Swift
+38 Red-bellied Woodpecker
+39 Nuttall's Woodpecker
+40 Pigeon Guillemot (Nonbreeding, juvenile)
+41 Western Gull (Immature)
+42 Black-bellied Whistling-Duck
+43 American Wigeon (Female/Eclipse male)
+44 Northern Pintail (Female/Eclipse male)
+45 Greater Scaup (Female/Eclipse male)
+46 Black Scoter (Female/juvenile)
+47 Common Merganser (Female/immature male)
+48 Red-throated Loon (Nonbreeding/juvenile)
+49 Eared Grebe (Nonbreeding/juvenile)
+50 Reddish Egret (White morph)
+51 Northern Harrier (Female, immature)
+52 Rough-legged Hawk (Light morph)
+53 Common Gallinule (Immature)
+54 Wilson's Phalarope (Nonbreeding, juvenile)
+55 Costa's Hummingbird (Female, immature)
+56 Red-headed Woodpecker (Immature)
+57 Swainson's Hawk (Immature)
+58 Fox Sparrow (Red)
+59 Phainopepla (Female/juvenile)
+60 Bay-breasted Warbler (Breeding male)
+61 White-throated Sparrow (White-striped)
+62 Chipping Sparrow (Breeding)
+63 Black-headed Grosbeak (Adult Male)
+64 Bobolink (Breeding male)
+65 Hooded Oriole (Adult male)
+66 Cassin's Finch (Adult Male)
+67 American Goldfinch (Breeding Male)
+68 Northwestern Crow
+69 Tree Swallow
+70 Cave Swallow
+71 Chestnut-backed Chickadee
+72 Tufted Titmouse
+73 White-breasted Nuthatch
+74 Canyon Wren
+75 Winter Wren
+76 Golden-crowned Kinglet
+77 Mountain Bluebird
+78 Wood Thrush
+79 Curve-billed Thrasher
+80 Cedar Waxwing
+81 Black-and-white Warbler
+82 MacGillivray's Warbler
+83 Blackburnian Warbler
+84 Prairie Warbler
+85 Canada Warbler
+86 Eastern Towhee
+87 American Tree Sparrow
+88 Lark Sparrow
+89 Swamp Sparrow
+90 Eastern Meadowlark
+91 Great-tailed Grackle
+92 Brown-capped Rosy-Finch
+93 Eastern Wood-Pewee
+94 Eastern Phoebe
+95 Western Kingbird
+96 White-eyed Vireo
+97 Blue-headed Vireo
+98 Steller's Jay
+99 Clark's Nutcracker
+100 Purple Martin (Female/juvenile)
+101 American Redstart (Female/juvenile)
+102 Black-throated Blue Warbler (Female/Immature male)
+103 Golden-crowned Sparrow (Immature)
+104 Northern Cardinal (Female/Juvenile)
+105 Indigo Bunting (Female/juvenile)
+106 Brewer's Blackbird (Male)
+107 Pine Grosbeak (Female/juvenile)
+108 White-winged Crossbill (Female/juvenile)
+109 Vermilion Flycatcher (Female, immature)
+110 Yellow-rumped Warbler (Winter/juvenile Audubon's)
