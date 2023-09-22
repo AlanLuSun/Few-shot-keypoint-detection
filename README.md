@@ -48,12 +48,11 @@ Since the official [Animal pose dataset](https://sites.google.com/view/animal-po
 If you use our code for your research, please cite our paper. Many thanks!
 
 ```
-@InProceedings{Lu_2022_CVPR,
-    author    = {Lu, Changsheng and Koniusz, Piotr},
-    title     = {Few-Shot Keypoint Detection With Uncertainty Learning for Unseen Species},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {19416-19426}
+@inproceedings{lu2022few,
+  title={Few-shot keypoint detection with uncertainty learning for unseen species},
+  author={Lu, Changsheng and Koniusz, Piotr},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={19416--19426},
+  year={2022}
 }
 ```
