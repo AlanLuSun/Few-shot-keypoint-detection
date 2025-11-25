@@ -13,7 +13,7 @@ For convenience, we show how to train and test the FSKD model only in [Animal po
 
 ## 3. Model Training
 - Download dataset.   
-Since the official [Animal pose dataset](https://sites.google.com/view/animal-pose/) has been corrected multiple times by its author due to noisy annotations, the current official one is different from the one which we used. Moreover, the annotation format is different, too. Therefore, we upload the Animal pose dataset that we used on the cloud and please use [this one](https://drive.google.com/file/d/1d1PJWBFjurJltjgyt0LgTENOw0PahZMF/view?usp=sharing). The animal pose dataset should have the folder structure as follows:
+Since the official Animal pose dataset has been corrected multiple times by its author due to noisy annotations, its official one is different from the one which we used. Moreover, the annotation format is different, too. Therefore, we upload the Animal pose dataset that we used on the cloud and please use [this one](https://drive.google.com/file/d/1G81INOtQogf8-23TfHbVVYvGKkNHRzJT/view?usp=sharing). The animal pose dataset should have the folders (involved in this code) as follows:
     
 ```angular2html
 |--Animal_Dataset_Combined  
@@ -32,7 +32,7 @@ Since the official [Animal pose dataset](https://sites.google.com/view/animal-po
    |-- sheep.json
 ```
 
-- Generate saliency maps using the pre-trained saliency detector [SCRN](https://github.com/wuzhe71/SCRN). The saliency map is used to prune auxiliary keypoints out of foreground region.
+- Generate saliency maps using the pre-trained saliency detector [SCRN](https://github.com/wuzhe71/SCRN). The saliency map is used to prune auxiliary keypoints out of foreground region. For convenience, we also included the generated saliency maps and you will see it once downloading the animal pose dataset.
 
 - Modify the 'saliency_maps_root' in dict 'opts', and run 'main.py'.  
 
